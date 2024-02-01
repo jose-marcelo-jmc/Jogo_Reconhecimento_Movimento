@@ -15,7 +15,6 @@ function mudar(){
     objeto.style.left = aleatorioX + "px";
     objeto.style.top = aleatorioY + "px";
 
-    // Aumentar a pontuação
     pontos++;
     document.getElementById("pontos").innerText = pontos;
 }
